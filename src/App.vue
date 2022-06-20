@@ -22,6 +22,15 @@
       <section>
         <CulinaryCollection/>
       </section>
+
+      <section>
+        <FarmtoTable/>
+        <ImgFarmToTable/>
+      </section>
+
+      <section>
+        
+      </section>
     </main>
 
 
@@ -39,11 +48,10 @@ import FoodieJournal from './components/FoodieJournal.vue';
 import MyPopularRecipes from './components/MyPopularRecipes.vue';
 import MyFooter from './components/MyFooter.vue';
 import CulinaryCollection from './components/CulinaryCollection.vue';
+import FarmtoTable from './components/FarmtoTable.vue';
+import ImgFarmToTable from './components/ImgFarmToTable.vue';
 
 
-
-
-// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
@@ -53,7 +61,9 @@ export default {
     MyFooter,
     MyPopularRecipes,
     FoodieJournal,
-    CulinaryCollection
+    CulinaryCollection,
+    FarmtoTable,
+    ImgFarmToTable
 }
 }
 </script>

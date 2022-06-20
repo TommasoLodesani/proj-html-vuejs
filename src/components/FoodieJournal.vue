@@ -47,7 +47,8 @@ export default {
     padding: 35px;
     // height: 470px;
     background-color: white;
-    // position: relative;
+    position: relative;
+    margin-top: -50px;
     // top: 37%;
     // left: 50%;
     // transform: translate(-50%, -50%);
@@ -80,7 +81,8 @@ export default {
 
         .product {
             text-align: center;
-            flex-basis: calc(100% / 3);
+            flex-basis: calc((100% - 30px) / 3);
+            margin: 0 10px;
 
             h3 {
                 padding: 15px 25px;
@@ -95,7 +97,7 @@ export default {
             }
 
             img {
-                max-width: 345px;
+                max-width: 100%;
             }
 
         }

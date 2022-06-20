@@ -88,6 +88,8 @@ export default {
         color: white;
         box-shadow: 0px 11px 13px -14px #000000;
 
+        
+
     }
 
     .tab_icon{

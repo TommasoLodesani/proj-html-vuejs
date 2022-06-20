@@ -33,41 +33,35 @@
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/r-rachel-park-366508-unsplash-min-400x263.jpg" alt="immagine frutta mista">
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/r-michelle-tsang-500721-unsplash-min-400x263.jpg" alt="immagine frutta mista">
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/quick-summer-drink-460x295.jpg" alt="immagine frutta mista">
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="immagine frutta mista">
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/perfect-cosmopolitan-460x295.jpg" alt="immagine frutta mista">
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/fi2x-6-460x295.jpg" alt="immagine frutta mista">
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="immagine frutta mista">
 
                 </div>
 
-                <!-- <img src="../assets/img/r-rachel-park-366508-unsplash-min-200x132.jpg" alt="immagine frutta mista">
-                <img src="../assets/img/r-michelle-tsang-500721-unsplash-min-200x132.jpg" alt="immagine frutta mista">
-                <img src="../assets/img/r-michelle-tsang-500721-unsplash-min-200x132.jpg" alt="immagine frutta mista">
-                <img src="../assets/img/Mixed-fruits-200x132.jpg" alt="immagine frutta mista">
-                <img src="../assets/img/Mixed-fruits-200x132.jpg" alt="immagine frutta mista">
-                <img src="../assets/img/Mixed-fruits-200x132.jpg" alt="immagine frutta mista">
-                <img src="../assets/img/Mixed-fruits-200x132.jpg" alt="immagine frutta mista"> -->
+              
 
 
             </div>
@@ -158,27 +152,20 @@ export default {
 
         .right {
             display: flex;
-            flex-basis: 50%;
             flex-wrap: wrap;
             margin-left: 45px;
 
             .container-img {
-                margin-bottom: 25px;
+                margin-bottom: 5px;
                 margin-right: 25px;
+                flex-basis: calc((100% - 50px)/ 2);
 
 
                 img {
-                    width: 275px;
-                    height: 175px;
-                    object-fit: contain;
+                    max-width: 100%;
                 }
 
             }
-
-            // margin-top: -6px;
-            // img{
-            //     padding: 6px;
-            // }
 
 
         }
