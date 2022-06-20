@@ -29,7 +29,8 @@
       </section>
 
       <section>
-        
+        <MySubscribe/>
+        <MyCarousel/>
       </section>
     </main>
 
@@ -50,6 +51,9 @@ import MyFooter from './components/MyFooter.vue';
 import CulinaryCollection from './components/CulinaryCollection.vue';
 import FarmtoTable from './components/FarmtoTable.vue';
 import ImgFarmToTable from './components/ImgFarmToTable.vue';
+import MySubscribe from './components/MySubscribe.vue';
+import MyCarousel from './components/MyCarousel.vue';
+
 
 
 
@@ -63,7 +67,9 @@ export default {
     FoodieJournal,
     CulinaryCollection,
     FarmtoTable,
-    ImgFarmToTable
+    ImgFarmToTable,
+    MySubscribe,
+    MyCarousel
 }
 }
 </script>

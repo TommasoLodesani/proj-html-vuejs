@@ -99,6 +99,11 @@
             </div>
         </div>
 
+        <div class="bottom-footer">
+         
+            <p>Copirigh Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quod nulla quas</p>
+        </div>
+
 
 
     </footer>
@@ -145,17 +150,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+footer{
+    background-color: white;
+}
 .top-footer {
     display: flex;
     justify-content: center;
     width: 70%;
     margin: auto;
 
-
     .col{
         flex-basis: (100% / 5);
         padding: 0px 50px;
         margin-top: 75px;
+        margin-bottom: 50px;
         border-right: dotted 1px #94908b;
 
           h4{
@@ -199,7 +208,7 @@ export default {
 
         a {
             text-decoration: none;
-            color: #94908b;
+            color: #67615a;
             font-weight: bold;
             // font-size: 12px;
 
@@ -239,6 +248,21 @@ export default {
 
 
 
+}
+
+.bottom-footer{
+    width: 100%;
+    height: 80px;
+    background-color: #f5f5f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 12px;
+        color: #67615a;
+        
+    };
 }
 
 
