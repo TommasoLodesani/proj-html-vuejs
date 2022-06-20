@@ -85,8 +85,16 @@
             <div class="col fourth">
                 <h4>GET OUR APP!</h4>
 
-                <img src="../assets/img/download-android.png" alt="logo download android">
-                <img src="../assets/img/download-app-store.png" alt="logo download android">
+                <a href="#">
+                    <img src="../assets/img/download-android.png" alt="logo download android">
+
+                </a>
+
+                <a href="#">
+
+                    <img src="../assets/img/download-app-store.png" alt="logo download android">
+                </a>
+
 
             </div>
         </div>

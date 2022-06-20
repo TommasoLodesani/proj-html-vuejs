@@ -82,6 +82,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+header{
+  background-color: #ffffff;
+}
 .header-top{
     width: 62%;
     margin: auto;

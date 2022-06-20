@@ -9,11 +9,18 @@
     <!-- main -->
     <main>
       <!-- foodie journal -->
-      <section></section>
+      <section>
+        <FoodieJournal/>
+      </section>
 
       <!-- popular recipes -->
       <section>
         <MyPopularRecipes/>
+      </section>
+
+      <!-- culinary collection -->
+      <section>
+        <CulinaryCollection/>
       </section>
     </main>
 
@@ -28,8 +35,12 @@
 <script>
 import MyHeader from './components/MyHeader.vue';
 import MyJumbotron from './components/MyJumbotron.vue';
-import MyFooter from './components/MyFooter.vue';
+import FoodieJournal from './components/FoodieJournal.vue';
 import MyPopularRecipes from './components/MyPopularRecipes.vue';
+import MyFooter from './components/MyFooter.vue';
+import CulinaryCollection from './components/CulinaryCollection.vue';
+
+
 
 
 // import HelloWorld from './components/HelloWorld.vue'
@@ -40,7 +51,9 @@ export default {
     MyHeader,
     MyJumbotron,
     MyFooter,
-    MyPopularRecipes
+    MyPopularRecipes,
+    FoodieJournal,
+    CulinaryCollection
 }
 }
 </script>
@@ -62,5 +75,6 @@ ul{
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f1;
 }
 </style>
