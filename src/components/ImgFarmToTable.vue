@@ -7,7 +7,9 @@
 
                 <div class="big-img-section">
 
+                    
                     <img src="../assets/img/single-post-img3-800x527.jpg" alt="immagine yougurt">
+
                     <div class="title">
 
                         <h3>Lunch Favorite with Salad, Naan, And Beans</h3>
@@ -150,7 +152,9 @@
                 </div>
 
                 <div class="tweet">
+
                     <div class="title">
+
                         <div class="title-left">
                             <h5>Tweet</h5>
                             <span>by</span>
@@ -162,14 +166,16 @@
 
                         </div>
 
-                        
+
                     </div>
 
                     <div class="tweet-content">
+
                         <div class="content-left">
                             <img src="../assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
                         </div>
                         <div class="content-right">
+
                             <div class="top-content">
                                 <h5>ThemeFusion</h5>
                                 <a href="#">
@@ -178,6 +184,18 @@
 
                             </div>
                             <span>@ThemeFusion</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non voluptates ratione
+                                blanditiis sequi asperiores voluptas reiciendis recusandae. Animi facilis dolorum
+                                expedita, eligendi dicta explicabo quia ad consequuntur soluta autem recusandae!</p>
+
+                            <img src="../assets/img/demo_food.png" alt="">
+
+                            <div class="icon-bottom">
+                                
+                                <img src="../assets/img/image (2).svg" alt="">
+                                <img src="../assets/img/image (3).svg" alt="">
+                                
+                            </div>
 
                         </div>
                     </div>
@@ -223,6 +241,8 @@ export default {
                 img {
                     max-width: 100%;
                 }
+
+                
 
                 .title {
                     border-bottom: dotted 1px #67615a;
@@ -478,65 +498,91 @@ export default {
                 }
             }
 
-            .tweet{
+            .tweet {
                 background-color: white;
                 padding: 25px;
                 border-radius: 5px;
 
-                .title{
+                .title {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    margin-bottom: 10px;
 
-                    h5{
+                    h5 {
                         font-size: 20px;
                         font-weight: 100;
                         margin-right: 5px;
                         display: inline-block;
                     }
-                    span{
+
+                    span {
                         font-size: 12px;
                         color: #67615a;
                         margin-right: 5px;
                         display: inline-block;
                     }
-                    h6{
+
+                    h6 {
                         display: inline-block;
-                        
+
                     }
 
                 }
 
-                .tweet-content{
+                .tweet-content {
                     display: flex;
-                    align-items: center;
 
-                    .content-left{
+
+                    .content-left {
                         width: 20%;
+
+                        img {
+                            max-width: 100%;
+                        }
                     }
 
-                    .content-right{
-                        width: 80%;
-                        
-                        .top-content{
+                    .content-right {
+                        width: calc(80% - 10px);
+                        margin-left: 10px;
+
+
+                        .top-content {
                             display: flex;
-                            justify-content:space-between;
+                            justify-content: space-between;
                             align-items: center;
                             width: 100%;
-                           
-        
-                            a{
-                                color: #67615a;
-                                
-                            }
-    
+
+
+
                         }
-    
-    
-                        span{
+
+                        a {
+                            color: #67615a;
+
+                        }
+
+                        span {
                             font-size: 12px;
                             color: #67615a;
                         }
+
+                        p {
+                            margin-top: 5px;
+                        }
+
+                        img {
+                            max-width: 100%;
+                            margin-top: 15px;
+                        }
+
+                        .icon-bottom{
+                         img{
+                            width: 20px;
+                            margin-right: 20px;
+                         }
+                        }
+
 
                     }
 

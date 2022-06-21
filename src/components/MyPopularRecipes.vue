@@ -7,7 +7,20 @@
         <div class="container-column">
 
             <div class="left">
-                <img src="../assets/img/Yogurt-Nan-600x395.jpg" alt="immagine yougurt">
+                <div class="image-container">
+                    <img src="../assets/img/Yogurt-Nan-600x395.jpg" alt="immagine yougurt">
+
+                    <div class="img-hoover">
+                        <div class="text-hoover">
+
+                            <h3>Lunch Favorite with Salad, Naan, And Beans</h3>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
                 <div class="caption">
 
                     <div class="title">
@@ -31,39 +44,101 @@
                 <div class="container-img">
                     <img src="../assets/img/Mixed-fruits-400x263.jpg" alt="immagine frutta mista">
 
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
+
                 </div>
                 <div class="container-img">
                     <img src="../assets/img/r-rachel-park-366508-unsplash-min-400x263.jpg" alt="immagine frutta mista">
+
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
 
                 </div>
                 <div class="container-img">
                     <img src="../assets/img/r-michelle-tsang-500721-unsplash-min-400x263.jpg" alt="immagine frutta mista">
 
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
+
                 </div>
+
                 <div class="container-img">
                     <img src="../assets/img/quick-summer-drink-460x295.jpg" alt="immagine frutta mista">
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
 
                 </div>
+
                 <div class="container-img">
-                    <img src="../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="immagine frutta mista">
+                   <img src="../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg"
+                        alt="immagine frutta mista">
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
 
                 </div>
+
                 <div class="container-img">
-                    <img src="../assets/img/perfect-cosmopolitan-460x295.jpg" alt="immagine frutta mista">
+                   <img src="../assets/img/perfect-cosmopolitan-460x295.jpg" alt="immagine frutta mista">
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
 
                 </div>
+
                 <div class="container-img">
-                    <img src="../assets/img/fi2x-6-460x295.jpg" alt="immagine frutta mista">
+                   <img src="../assets/img/fi2x-6-460x295.jpg" alt="immagine frutta mista">
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
 
                 </div>
+
                 <div class="container-img">
-                    <img src="../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="immagine frutta mista">
+                   <img src="../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="immagine frutta mista">
+                    <div class="img-hoover-right">
+                        <div class="text-hoover-right">
+
+                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                        </div>
+                    </div>
 
                 </div>
-
-              
-
-
+            
             </div>
         </div>
 
@@ -105,6 +180,45 @@ export default {
 
         .left {
             text-align: left;
+
+            .image-container {
+                position: relative;
+
+            }
+
+            .image-container:hover .img-hoover {
+                opacity: 1;
+            }
+
+            .img-hoover {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(249, 105, 14, 1));
+            }
+
+            .text-hoover {
+                font-size: 17px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+
+                h3 {
+                    color: white;
+                    font-weight: bold;
+
+                }
+            }
 
             .caption {
                 width: 600px;
@@ -159,10 +273,45 @@ export default {
                 margin-bottom: 5px;
                 margin-right: 25px;
                 flex-basis: calc((100% - 50px)/ 2);
-
+                position: relative;
 
                 img {
                     max-width: 100%;
+                }
+
+                &:hover .img-hoover-right {
+                    opacity: 1;
+                }
+
+                .img-hoover-right {
+                    position: absolute;
+                    top: -6%;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    transition: .5s ease;
+                    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(249, 105, 14, 1));
+                }
+
+                .text-hoover-right {
+
+                    font-size: 17px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+
+                    h3 {
+                        color: white;
+                        font-weight: bold;
+
+                    }
                 }
 
             }

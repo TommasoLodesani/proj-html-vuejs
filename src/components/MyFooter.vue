@@ -20,17 +20,17 @@
                     </li>
                     <li>
                         <a href="#">
-                            <font-awesome-icon icon="fa-brands fa-twitter" />
+                            <font-awesome-icon icon="fab fa-facebook-f" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <font-awesome-icon icon="fa-brands fa-twitter" />
+                            <font-awesome-icon icon="fab fa-instagram" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <font-awesome-icon icon="fa-brands fa-twitter" />
+                            <font-awesome-icon icon="fab fa-youtube" />
                         </a>
                     </li>
                 </ul>

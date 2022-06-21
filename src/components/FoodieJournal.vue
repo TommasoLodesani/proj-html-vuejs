@@ -9,20 +9,59 @@
             </div>
             <div class="caption">
                 <div class="product">
-                    <img src="../assets/img/single-post-img3-400x263.jpg" alt="immagine cibo">
+                    
+                    <div class="img-container">
+                        <img src="../assets/img/single-post-img3-400x263.jpg" alt="immagine cibo">
+
+                        <div class="img-hoover">
+                            <div class="text-hoover">
+                                
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                            </div>
+                        </div>
+                    </div>
                     <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
                     <h6>By Admin, I March 2022</h6>
+                    
                 </div>
                 <div class="product">
-                    <img src="../assets/img/fi-roundup-400x263.jpg" alt="immagine cibo">
-                    <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                    <div class="img-container">
+                        <img src="../assets/img/fi-roundup-400x263.jpg" alt="immagine cibo">
+
+                        <div class="img-hoover">
+                            <div class="text-hoover">
+                                
+                                <h3>Roundup: My New Favourite Recipes For Healthy Living</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Roundup: My New Favourite Recipes For Healthy Living</h3>
                     <h6>By Admin, I March 2022</h6>
+                    
                 </div>
+                
                 <div class="product">
-                    <img src="../assets/img/fi-toasts-400x263.jpg" alt="immagine cibo">
-                    <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                    <div class="img-container">
+                        <img src="../assets/img/fi-toasts-400x263.jpg" alt="immagine cibo">
+
+                        <div class="img-hoover">
+                            <div class="text-hoover">
+                                
+                                <h3>Why These Toast With Tea are My New Favourite</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Why These Toast With Tea are My New Favourite</h3>
                     <h6>By Admin, I March 2022</h6>
+                    
                 </div>
+               
+
+               
+                
 
 
             </div>
@@ -66,10 +105,10 @@ export default {
             font-weight: 100;
             color: #333338;
 
-       
+
         }
 
-        .line{
+        .line {
             width: 41%;
             border: dotted 1px #67615a;
         }
@@ -80,6 +119,7 @@ export default {
         justify-content: center;
 
         .product {
+
             text-align: center;
             flex-basis: calc((100% - 30px) / 3);
             margin: 0 10px;
@@ -98,6 +138,46 @@ export default {
 
             img {
                 max-width: 100%;
+            }
+
+            .img-container {
+                position: relative;
+
+            }
+
+            .img-container:hover .img-hoover {
+                opacity: 1;
+            }
+
+            .img-hoover {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(249,105,14,1));
+            }
+
+            .text-hoover {
+             
+                font-size: 17px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+
+                h3{
+                    color: white;
+                    font-weight: bold;
+
+                }
             }
 
         }

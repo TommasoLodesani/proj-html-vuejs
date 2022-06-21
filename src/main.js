@@ -15,8 +15,12 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
+// import { faLink } from '@fortawesome/free-brands-svg-icons'
+
+
+
 /* add icons to the library */
-library.add(faTwitter, faFacebookF, faInstagram, faYoutube )
+library.add(faTwitter, faFacebookF, faInstagram, faYoutube,)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
