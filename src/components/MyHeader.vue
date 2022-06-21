@@ -7,9 +7,9 @@
             </div>
             <div class="right">
                 <a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                <a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                <a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                <a href="#"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
+                <a href="#"><font-awesome-icon icon="fab fa-facebook-f" /></a>
+                <a href="#"><font-awesome-icon icon="fab fa-instagram" /></a>
+                <a href="#"><font-awesome-icon icon="fab fa-youtube" /></a>
             </div>
         </div>
 
