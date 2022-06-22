@@ -47,7 +47,11 @@
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            <a href="">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                            </a>
+
 
                         </div>
                     </div>
@@ -58,20 +62,28 @@
 
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
+                            <a href="#">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            </a>
+
 
                         </div>
                     </div>
 
                 </div>
                 <div class="container-img">
-                    <img src="../assets/img/r-michelle-tsang-500721-unsplash-min-400x263.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/r-michelle-tsang-500721-unsplash-min-400x263.jpg"
+                        alt="immagine frutta mista">
 
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            <a href="#">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                            </a>
+
 
                         </div>
                     </div>
@@ -83,7 +95,11 @@
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            <a href="#">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                            </a>
+
 
                         </div>
                     </div>
@@ -91,12 +107,16 @@
                 </div>
 
                 <div class="container-img">
-                   <img src="../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg"
+                    <img src="../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg"
                         alt="immagine frutta mista">
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            <a href="#">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                            </a>
+
 
                         </div>
                     </div>
@@ -104,11 +124,14 @@
                 </div>
 
                 <div class="container-img">
-                   <img src="../assets/img/perfect-cosmopolitan-460x295.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/perfect-cosmopolitan-460x295.jpg" alt="immagine frutta mista">
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
+                            <a href="#">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            </a>
+
 
                         </div>
                     </div>
@@ -116,11 +139,15 @@
                 </div>
 
                 <div class="container-img">
-                   <img src="../assets/img/fi2x-6-460x295.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/fi2x-6-460x295.jpg" alt="immagine frutta mista">
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            <a href="#">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                            </a>
+
 
                         </div>
                     </div>
@@ -128,17 +155,20 @@
                 </div>
 
                 <div class="container-img">
-                   <img src="../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="immagine frutta mista">
+                    <img src="../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="immagine frutta mista">
                     <div class="img-hoover-right">
                         <div class="text-hoover-right">
+                            <a href="#">
+                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
 
-                            <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                            </a>
+
 
                         </div>
                     </div>
 
                 </div>
-            
+
             </div>
         </div>
 
@@ -212,6 +242,8 @@ export default {
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
                 text-align: center;
+
+
 
                 h3 {
                     color: white;
@@ -306,6 +338,10 @@ export default {
                     -ms-transform: translate(-50%, -50%);
                     transform: translate(-50%, -50%);
                     text-align: center;
+
+                    a {
+                        text-decoration: none;
+                    }
 
                     h3 {
                         color: white;

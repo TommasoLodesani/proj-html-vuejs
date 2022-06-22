@@ -3,7 +3,7 @@
 
         <div class="title">
 
-            <h1>Sbuscribe <span>&</span> Recive a Free eBook</h1>
+            <h1>Subscribe <span>&</span> Recive a Free eBook</h1>
            
             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sint provident rem et accusantium architecto delectus excepturi</h4>
             

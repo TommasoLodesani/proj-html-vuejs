@@ -37,27 +37,27 @@
                     </div>
                     <div class="product">
                         <img src="../assets/img/fi-roundup-400x263.jpg" alt="immagine cibo">
-                        <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                        <h3>Meal Prep: Korean Bimbimbap with kamichi</h3>
                         <h6>By Admin, I March 2022</h6>
                     </div>
                     <div class="product">
                         <img src="../assets/img/fi-toasts-400x263.jpg" alt="immagine cibo">
-                        <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                        <h3>Why These Toast with Tea are My New Favourite</h3>
                         <h6>By Admin, I March 2022</h6>
                     </div>
                     <div class="product">
                         <img src="../assets/img/single-post-img3-400x263.jpg" alt="immagine cibo">
-                        <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                        <h3>Exploring Street Food in Bangkok</h3>
                         <h6>By Admin, I March 2022</h6>
                     </div>
                     <div class="product">
                         <img src="../assets/img/fi-roundup-400x263.jpg" alt="immagine cibo">
-                        <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                        <h3>Oraginc Choise For Healtier Living</h3>
                         <h6>By Admin, I March 2022</h6>
                     </div>
                     <div class="product">
                         <img src="../assets/img/fi-toasts-400x263.jpg" alt="immagine cibo">
-                        <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                        <h3>5 Waterside Restaurant in Istanbul for Special Events </h3>
                         <h6>By Admin, I March 2022</h6>
                     </div>
 

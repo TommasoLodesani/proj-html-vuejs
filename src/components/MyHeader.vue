@@ -59,7 +59,7 @@ export default {
           current : false
         },
         {
-          text : "Abou",
+          text : "About",
           url : "#",
           current : false
         },

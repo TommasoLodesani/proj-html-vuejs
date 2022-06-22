@@ -16,7 +16,10 @@
                         <div class="img-hoover">
                             <div class="text-hoover">
                                 
-                                <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+                                <a href="#">
+                                    <h3>Food Corner: Top Japanese restaurant for Sushi</h3>
+
+                                </a>
 
                             </div>
                         </div>
@@ -32,7 +35,10 @@
                         <div class="img-hoover">
                             <div class="text-hoover">
                                 
-                                <h3>Roundup: My New Favourite Recipes For Healthy Living</h3>
+                                <a href="#">
+                                    <h3>Roundup: My New Favourite Recipes For Healthy Living</h3>
+
+                                </a>
 
                             </div>
                         </div>
@@ -49,7 +55,10 @@
                         <div class="img-hoover">
                             <div class="text-hoover">
                                 
-                                <h3>Why These Toast With Tea are My New Favourite</h3>
+                                <a href="#">
+                                    <h3>Why These Toast With Tea are My New Favourite</h3>
+
+                                </a>
 
                             </div>
                         </div>
@@ -172,6 +181,10 @@ export default {
                 -ms-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
                 text-align: center;
+
+                a{
+                    text-decoration: none;
+                }
 
                 h3{
                     color: white;

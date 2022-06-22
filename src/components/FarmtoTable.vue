@@ -29,8 +29,8 @@ export default {
 .section-container {
     width: 65%;
     margin: auto;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
